@@ -122,9 +122,9 @@ const Home = () => {
                 </div>
               </td>
               <td>
-                <button type='button' class="btn btn-outline-primary" >
+                <Link type='button' class="btn btn-outline-primary" to={`/employee/${emp.id}`} >
                   Details
-                </button>
+                </Link>
               </td>
 
             </tr>
