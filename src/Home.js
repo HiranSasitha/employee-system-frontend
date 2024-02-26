@@ -67,8 +67,11 @@ const Home = () => {
                 <Link class="nav-link" to={"/"} > Home </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to={"/"} > Manage Employee </Link>
+                <Link class="nav-link" to={"/department-manage"} > Department Manage </Link>
               </li>
+              <li class="nav-item">
+                                <Link class="nav-link" to={"/employee-manage"} > Employee Manage </Link>
+                            </li>
 
             </ul>
           </div>
