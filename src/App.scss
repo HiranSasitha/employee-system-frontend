@@ -1,0 +1,37 @@
+.p1 {
+    color: white; 
+    letter-spacing: 6px;
+    font-size: 30px;
+    font-weight: bolder 
+    
+  }
+
+  .navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+  }
+  .k1{
+    color: #042344;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+
+  .custom-table.table {
+    width: 90%; 
+    margin: 0 auto;
+    
+  }
+
+  .d3{
+    color: white;
+    background-color: rgb(59, 50, 50);
+  }
+  .d2{
+    background-color: rgb(36, 33, 33);
+  }
+
+
+
+
+@import '~bootstrap/scss/bootstrap';
